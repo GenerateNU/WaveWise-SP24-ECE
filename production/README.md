@@ -6,7 +6,7 @@ This directory is for code/schematics/layouts that will be implemented in the fi
 ## Directory Structure:
 ```
 .
-|───ecad    # contains any schematic/board development files
+|───wavewise-ecad    # contains any schematic/board development files
 |
-└───src     # contains any embedded code or important scripts
+└───wavewise-src     # contains any embedded code or important scripts
 ```
