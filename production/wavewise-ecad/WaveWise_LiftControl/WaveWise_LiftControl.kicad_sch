@@ -1,5 +1,153 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 65aeefed-878a-44c2-92d6-311875571bde)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+    (symbol "2 pin JST:B2B-XH-A" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 8.89 6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "B2B-XH-A" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "CONN_B2B-XH-A_JST" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "B2B-XH-A" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "B2B-XH-A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CONN_B2B-XH-A_JST" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "B2B-XH-A_1_1"
+        (polyline
+          (pts
+            (xy 5.08 -5.08)
+            (xy 12.7 -5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3867)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.6933)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 -5.08)
+            (xy 12.7 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin unspecified line (at 0 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at 0 -2.54 0) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "2 pin JST:B2B-XH-A") (at 38.354 49.022 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2ab8837-8cb2-4a41-bc79-e11feb8e5e00)
+    (property "Reference" "J1" (at 52.07 49.022 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Value" "B2B-XH-A" (at 52.07 51.562 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (property "Footprint" "CONN_B2B-XH-A_JST" (at 38.354 49.022 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "B2B-XH-A" (at 38.354 49.022 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid 7ed9a4d5-da40-435e-93eb-8491d37eed3e))
+    (pin "2" (uuid 766933f1-d164-4386-bc96-2c57738d9802))
+    (instances
+      (project "WaveWise_LiftControl"
+        (path "/65aeefed-878a-44c2-92d6-311875571bde"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
