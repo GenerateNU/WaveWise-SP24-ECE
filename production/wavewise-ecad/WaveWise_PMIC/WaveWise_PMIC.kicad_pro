@@ -326,6 +326,22 @@
     [
       "8343c01b-8940-4cb8-a17d-91fd7fb1cccd",
       ""
+    ],
+    [
+      "7fd42481-dc5a-4ae0-adec-c5e7a3228be9",
+      "Connectors"
+    ],
+    [
+      "448ecc5b-1cdf-4544-9d6c-faff3e79b985",
+      "PICO (BICO)"
+    ],
+    [
+      "9401b93a-998f-4185-ba4a-cb0793660d5a",
+      "Pneumatic Control"
+    ],
+    [
+      "9b950372-21a2-4bba-abe5-3376787348cc",
+      "Power"
     ]
   ],
   "text_variables": {}
