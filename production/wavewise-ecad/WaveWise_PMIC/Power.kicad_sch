@@ -377,8 +377,8 @@
     (property "Datasheet" "~" (at 17.78 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 34272a4b-acf2-40e4-8acc-60e88c34503b))
     (pin "1" (uuid 2cd38f41-02be-461c-b9c6-ffe8ed4dd346))
+    (pin "2" (uuid 34272a4b-acf2-40e4-8acc-60e88c34503b))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9b950372-21a2-4bba-abe5-3376787348cc"
@@ -428,8 +428,8 @@
     (property "Datasheet" "~" (at 45.72 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f58f66db-3975-4bd9-982a-76380be91deb))
     (pin "1" (uuid 7caf1492-9bb8-4572-b366-a795ad236d87))
+    (pin "2" (uuid f58f66db-3975-4bd9-982a-76380be91deb))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9b950372-21a2-4bba-abe5-3376787348cc"
@@ -454,8 +454,8 @@
     (property "Datasheet" "~" (at 45.72 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 426d7554-d4a4-4533-86a1-deae9bba054d))
     (pin "1" (uuid 53265e51-0034-4f81-a795-b5bdcbca3fde))
+    (pin "2" (uuid 426d7554-d4a4-4533-86a1-deae9bba054d))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9b950372-21a2-4bba-abe5-3376787348cc"
@@ -480,8 +480,8 @@
     (property "Datasheet" "~" (at 17.78 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 17740e90-30f5-4d34-9ee2-6dab88c24c99))
     (pin "1" (uuid f77f1db9-f653-4299-96c4-a8c5b7a6e660))
+    (pin "2" (uuid 17740e90-30f5-4d34-9ee2-6dab88c24c99))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9b950372-21a2-4bba-abe5-3376787348cc"

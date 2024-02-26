@@ -776,9 +776,9 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" (at 66.04 48.895 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid 73707bab-1a42-42ea-8335-6b9d13e9cf02))
-    (pin "2" (uuid 04b76225-5956-40b1-8b12-b021453aa5c0))
     (pin "1" (uuid 7ddd00ea-a2ce-4da9-a803-a6a1c24244db))
+    (pin "2" (uuid 04b76225-5956-40b1-8b12-b021453aa5c0))
+    (pin "3" (uuid 73707bab-1a42-42ea-8335-6b9d13e9cf02))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
@@ -829,8 +829,8 @@
     (property "Datasheet" "~" (at 58.42 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2682d57d-9b86-401a-882b-4d65bc4978bb))
     (pin "1" (uuid e33f5a22-938b-4cfc-9836-b055892bd3ae))
+    (pin "2" (uuid 2682d57d-9b86-401a-882b-4d65bc4978bb))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
@@ -855,10 +855,10 @@
     (property "Datasheet" "~" (at 40.64 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A2" (uuid 4b1fbc30-51e0-4b29-b1ee-ed4cc8c9c8f0))
     (pin "13" (uuid 12e9f4ca-d6cd-4f8a-9535-2322b41aba30))
     (pin "14" (uuid e9e44eb4-284f-4c41-ba38-cbaaf8bf7c59))
     (pin "A1" (uuid 5c247717-ae22-4710-90ff-c5a577d6335a))
+    (pin "A2" (uuid 4b1fbc30-51e0-4b29-b1ee-ed4cc8c9c8f0))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
@@ -883,8 +883,8 @@
     (property "Datasheet" "~" (at 43.815 20.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e2fc0fe2-129a-4e7f-940a-eaa2b62ce953))
     (pin "1" (uuid 2c86e050-dcca-44d6-b5c5-a26efd3e4b67))
+    (pin "2" (uuid e2fc0fe2-129a-4e7f-940a-eaa2b62ce953))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
