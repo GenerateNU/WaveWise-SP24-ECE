@@ -1682,15 +1682,15 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/lv14360pddar/texas-instruments?region=nac" (at 96.52 1144.145 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "7" (uuid 43692da1-c477-4cb0-b085-f301c54d8c78))
-    (pin "6" (uuid f5856743-b74c-46f8-8eee-c53130920757))
-    (pin "9" (uuid 7e7770d6-b07a-40d3-a775-c81052eddc14))
-    (pin "2" (uuid 115b813b-8b1d-41ca-b6a7-8dca61894bbe))
-    (pin "5" (uuid 97727bda-8901-457a-964f-a4664fe65929))
     (pin "1" (uuid e12be01e-da29-48f0-94fc-605b4ba4b604))
+    (pin "2" (uuid 115b813b-8b1d-41ca-b6a7-8dca61894bbe))
     (pin "3" (uuid a43ae6ed-8b1a-48b8-9077-404dea737ffd))
     (pin "4" (uuid 1a8b770d-5229-43d9-9817-6d8997cb6c6b))
+    (pin "5" (uuid 97727bda-8901-457a-964f-a4664fe65929))
+    (pin "6" (uuid f5856743-b74c-46f8-8eee-c53130920757))
+    (pin "7" (uuid 43692da1-c477-4cb0-b085-f301c54d8c78))
     (pin "8" (uuid bcfcd20e-6eed-4773-9e74-e8eb132bb5a5))
+    (pin "9" (uuid 7e7770d6-b07a-40d3-a775-c81052eddc14))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9b950372-21a2-4bba-abe5-3376787348cc"
