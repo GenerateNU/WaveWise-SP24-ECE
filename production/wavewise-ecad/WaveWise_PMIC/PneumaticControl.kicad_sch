@@ -648,58 +648,6 @@
         )
       )
     )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+12V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+12V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+48V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -752,11 +700,11 @@
         )
       )
     )
-    (symbol "power:+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+BATT" (at 0 3.556 0)
+      (property "Value" "+5V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -765,13 +713,13 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power battery" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+BATT\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+BATT_0_1"
+      (symbol "+5V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -797,9 +745,9 @@
           (fill (type none))
         )
       )
-      (symbol "+BATT_1_1"
+      (symbol "+5V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+BATT" (effects (font (size 1.27 1.27))))
+          (name "+5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -970,7 +918,7 @@
     (stroke (width 0) (type default))
     (uuid 7b1c6f4d-46d2-4ef8-b2bc-41c1f6763db9)
   )
-  (wire (pts (xy 103.886 29.464) (xy 114.046 29.464))
+  (wire (pts (xy 103.505 29.464) (xy 114.046 29.464))
     (stroke (width 0) (type default))
     (uuid 9af3048a-8917-462f-bccf-dab12fac2aaa)
   )
@@ -998,7 +946,7 @@
     (stroke (width 0) (type default))
     (uuid bc5f8253-1df8-4fb7-aae1-6cb94534115d)
   )
-  (wire (pts (xy 103.886 29.464) (xy 103.886 28.194))
+  (wire (pts (xy 103.505 29.464) (xy 103.505 27.94))
     (stroke (width 0) (type default))
     (uuid c05fc500-d60b-46c4-bfd0-bc5f0128f98d)
   )
@@ -1134,26 +1082,26 @@
     (uuid ebf62df1-8315-4905-91c9-5bff3b0a7a56)
   )
 
-  (symbol (lib_id "power:+12V") (at 24.765 43.18 0) (unit 1)
+  (symbol (lib_id "power:+48V") (at 103.505 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d8ae116-08f1-4b05-9dbf-0590fdd7eae4)
-    (property "Reference" "#PWR07" (at 24.765 46.99 0)
+    (uuid 42a3145a-58ba-4ec5-95e1-7fef371e7ab7)
+    (property "Reference" "#PWR011" (at 103.505 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at 24.765 38.1 0)
+    (property "Value" "+48V" (at 103.505 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 24.765 43.18 0)
+    (property "Footprint" "" (at 103.505 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 24.765 43.18 0)
+    (property "Datasheet" "" (at 103.505 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eafab742-4b1f-4a63-bd29-d87803570d65))
+    (pin "1" (uuid edee082d-62e3-406e-b0d4-c8b6f6d2a4b6))
     (instances
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1179,46 +1127,6 @@
       (project "WaveWise_PMIC"
         (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
           (reference "#PWR032") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+BATT") (at 103.886 28.194 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 587c1ca3-a8f0-4f65-a62b-5c53a39e4565)
-    (property "Reference" "#PWR02" (at 103.886 32.004 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (at 103.886 24.384 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 103.886 28.194 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 103.886 28.194 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 870abe4f-9cd8-4768-9613-f2f8643f6ab4))
-    (instances
-      (project "WaveWise_Buoy"
-        (path "/592e9c71-e849-48c7-bbac-58569f6cf8ab"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "WaveWise_LiftControl"
-        (path "/65aeefed-878a-44c2-92d6-311875571bde"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "WaveWise_PMIC"
-        (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-      (project "WaveWise_Buoy"
-        (path "/ac491dca-bdaf-4a2e-a85e-04a34a1180ec"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1456,7 +1364,7 @@
     (property "Value" "Pololu_DRV8711_Motor_Driver" (at 128.651 25.654 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Wavewise Footprints UnChecked:POLOLU_36v4" (at 106.426 24.384 0)
+    (property "Footprint" "Unchecked:POLOLU_36v4" (at 106.426 24.384 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "" (at 106.426 24.384 0)
@@ -1503,6 +1411,31 @@
       (project "WaveWise_Buoy"
         (path "/ac491dca-bdaf-4a2e-a85e-04a34a1180ec"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 24.765 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d5d58093-5ec1-46bb-a308-f3643af1910b)
+    (property "Reference" "#PWR07" (at 24.765 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 24.765 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 24.765 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 24.765 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3f7a5b4c-a78c-4302-af2b-ed96557fe503))
+    (instances
+      (project "WaveWise_PMIC"
+        (path "/8343c01b-8940-4cb8-a17d-91fd7fb1cccd/9401b93a-998f-4185-ba4a-cb0793660d5a"
+          (reference "#PWR07") (unit 1)
         )
       )
     )
