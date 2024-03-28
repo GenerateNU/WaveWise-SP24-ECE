@@ -584,7 +584,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e5d78ad6-271a-4c9c-9548-25d2a04ce1bf)
   )
-  (hierarchical_label "PUMP_CTRL" (shape input) (at 35.56 40.64 180) (fields_autoplaced)
+  (hierarchical_label "BICO_PUMP_CTRL" (shape input) (at 35.56 40.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ef759675-ea81-4f36-b0d7-edfb042c7441)
   )
