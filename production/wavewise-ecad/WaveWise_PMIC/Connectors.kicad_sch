@@ -2857,7 +2857,7 @@
     (property "Value" "5031590200" (at 62.23 95.885 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Connector_Molex:Molex_MicroClasp_55932-0210_1x02_P2.00mm_Vertical" (at 71.12 102.87 0)
+    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" (at 71.12 102.87 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "5031590200" (at 71.12 102.87 0)
