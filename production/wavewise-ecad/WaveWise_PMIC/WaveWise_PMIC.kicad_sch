@@ -310,9 +310,9 @@
   )
 
   (symbol (lib_id "Device:R") (at 59.69 90.17 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid e2ae708a-75a6-422d-a81b-a2b6b103aecc)
-    (property "Reference" "R25" (at 59.69 84.836 90)
+    (property "Reference" "R25" (at 59.69 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 59.69 87.376 90)
