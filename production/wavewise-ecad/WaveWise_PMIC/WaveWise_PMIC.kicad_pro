@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|75376000|113157000|e76ba9b5-b93f-4bf9-bac3-9190473b3c53|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|135432208|91643152|d3b3dd81-e78d-4a71-84e3-3d1200e3241e|1ecd83a3-76ef-4410-b61f-b726359ac0d4"
+      ],
       "meta": {
         "version": 2
       },
@@ -441,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "WaveWise_PMIC.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
