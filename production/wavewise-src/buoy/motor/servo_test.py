@@ -1,22 +1,35 @@
 from machine import PWM, Pin
 from time import sleep
 # Set the GPIO pin number (based on the connection in step 2)
-SERVO_PIN = 20
+SERVO_PIN = 8
 # Set the PWM frequency (50Hz is common for servos)
 PWM_FREQUENCY = 50
 # Create a PWM object with the specified pin and frequency
-pwm = PWM(Pin(SERVO_PIN))
+pwm = PWM(Pin(SERVO_PIN), invert=True)
 pwm.freq(PWM_FREQUENCY)
 
-while True: 
-    for duty in range(65025): 
-        pwm.duty_u16(duty)
-        print(duty)
-        sleep(0.0001)
-    for duty in range(65025, 0, -1): 
-        pwm.duty_u16(duty)
-        print(duty)
-        sleep(0.0001)
+# begin = 85
+# end = 95
+
+begin = 4
+end = 9
+
+for duty in range(begin, end): 
+    pwm.duty_u16(duty*650)
+    print(duty*650, duty/100.0)
+    sleep(1)
+for duty in range(end, begin, -1): 
+    pwm.duty_u16(duty*650)
+    print(duty*650, duty/100.0)
+    sleep(1)
+    # for duty in range(0,65025, 100): 
+    #     pwm.duty_u16(duty)
+    #     print(duty, duty/65025.0)
+    #     sleep(0.5)
+    # for duty in range(65025, 0, -100): 
+    #     pwm.duty_u16(duty)
+    #     print(duty, duty/65025.0)
+    #     sleep(0.5)
 # # Function to set the servo angle
 # def set_angle(angle):
 #     # Convert the angle to a duty cycle value (0.5 ms to 2.5 ms pulse width)
